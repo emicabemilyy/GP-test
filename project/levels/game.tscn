@@ -1,10 +1,11 @@
-[gd_scene load_steps=11 format=3 uid="uid://ctxqvgqj0ckhj"]
+[gd_scene load_steps=12 format=3 uid="uid://ctxqvgqj0ckhj"]
 
 [ext_resource type="Texture2D" uid="uid://b4q1uosrs8hmw" path="res://assets/tiles.png" id="1_6m16e"]
 [ext_resource type="Script" path="res://scripts/CharacterBody2D.gd" id="1_jbujj"]
 [ext_resource type="Texture2D" uid="uid://2e2jdj1iopgb" path="res://assets/sprite.png" id="2_ak8d3"]
 [ext_resource type="Texture2D" uid="uid://b84un8sauc8gm" path="res://assets/other-sprite.png" id="3_s227y"]
 [ext_resource type="PackedScene" uid="uid://tkfuh8keiwhn" path="res://actionables/actionable.tscn" id="4_d5ycx"]
+[ext_resource type="Texture2D" uid="uid://bujkvqhebkwto" path="res://dialogue/IMG_0469.PNG" id="6_32ohq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ivwc6"]
 size = Vector2(76, 74)
@@ -95,3 +96,9 @@ layer_1/y_sort_enabled = false
 layer_1/y_sort_origin = 0
 layer_1/z_index = -5
 layer_1/tile_data = PackedInt32Array(2, 65539, 0, 3, 65539, 0, 4, 65539, 0, 5, 65539, 0, 6, 65539, 0, 7, 65539, 0, 8, 65539, 0, 9, 65539, 0, 262143, 65539, 1, 196608, 65539, 0, 196609, 65539, 0, 196610, 65539, 0, 196611, 65539, 0, 327679, 3, 1, 393215, 3, 1, 458751, 3, 1, 393218, 3, 1, 196615, 65539, 0, 196616, 65539, 0, 196617, 65539, 0)
+
+[node name="TextureRect" type="TextureRect" parent="."]
+z_index = -1
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("6_32ohq")
